@@ -9,6 +9,8 @@
 #define __BITFIELD_H__
 
 #include <iostream>
+#include <cmath>
+#include <cstring>
 
 using namespace std;
 
