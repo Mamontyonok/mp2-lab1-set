@@ -41,7 +41,7 @@ TBitField::~TBitField()
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
 {
     if (n >= BitLen)
-        throw length_error("indix bit out of range");
+        throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
     int MemIndex = n / size;
@@ -51,7 +51,7 @@ int TBitField::GetMemIndex(const int n) const // индекс Мем для би
 TELEM TBitField::GetMemMask(const int n) const // битовая маска для бита n
 {
     if (n >= BitLen)
-        throw length_error("indix bit out of range");
+        throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
     return (1 << (n % size));
@@ -67,7 +67,7 @@ int TBitField::GetLength(void) const // получить длину (к-во б�
 void TBitField::SetBit(const int n) // установить бит
 {
     if (n >= BitLen)
-        throw length_error("indix bit out of range");
+        throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
     pMem[GetMemIndex(n)] = pMem[GetMemIndex(n)] | GetMemMask(n);
@@ -76,7 +76,7 @@ void TBitField::SetBit(const int n) // установить бит
 void TBitField::ClrBit(const int n) // очистить бит
 {
     if (n >= BitLen)
-        throw length_error("indix bit out of range");
+        throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
     int MemIndex = GetMemIndex(n);
@@ -87,7 +87,7 @@ void TBitField::ClrBit(const int n) // очистить бит
 int TBitField::GetBit(const int n) const // получить значение бита
 {
     if (n >= BitLen)
-        throw length_error("indix bit out of range");
+        throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
     return (pMem[GetMemIndex(n)] & GetMemMask(n)) != 0;
@@ -174,7 +174,7 @@ istream &operator>>(istream &istr, TBitField &bf) // ввод
         bf.pMem[i] = 0;
     for (int i = 0; i < bf.GetLength(); i++)
         if (Input[i] == '1')
-            bf.SetBit(i); // с начала мы идём или с конца?
+            bf.SetBit(i);
     return istr;
 }
 

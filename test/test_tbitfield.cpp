@@ -309,3 +309,41 @@ TEST(TBitField, bitfields_with_different_bits_are_not_equal)
 
   EXPECT_NE(bf1, bf2);
 }
+
+TEST(TBitField, negatation_and_AND)
+{
+     TBitField bf1(3), bf2(4), bf3(4);
+     bf1 = ~bf1; // 111
+     bf2.SetBit(0);//1000
+     bf2.SetBit(3);//1001
+     bf2 = bf2 & bf1;
+     bf3.SetBit(0);
+     EXPECT_EQ(bf2, bf3);
+}
+
+TEST(TBitField, OR_and_comparison)
+{
+    TBitField bf1(3), bf2(3), bf3(3);
+    bf1.SetBit(2);//001
+    bf1.SetBit(1);//011
+    bf2.SetBit(0);//100
+    bf3 = ~bf3;//111
+    int res = (bf1 | bf2) == bf3;
+    EXPECT_EQ(res, 1);
+}
+
+
+TEST(TBitField, test_output)
+{
+    TBitField bf(7);
+    bf = ~bf;//1111111
+    bf.ClrBit(2);//1101111
+    bf.ClrBit(5);//1101101
+    testing::internal::CaptureStdout();
+    cout << bf;
+    string actual = testing::internal::GetCapturedStdout();
+    testing::internal::CaptureStdout();
+    cout << "1101101";
+    string expected = testing::internal::GetCapturedStdout();
+    EXPECT_EQ(actual, expected);
+}
