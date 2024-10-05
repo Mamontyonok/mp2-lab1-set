@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22044364A1194B23B4DBDB9A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				94C0E843969429DFB656B2F0 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		805C551B44D1BB9A53382B8E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 774077B9C17B4A1E914AE3AC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D3AE9A689A241A7B0BFAAEA2 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D8831854A32D48BDB48463CE /* PBXTargetDependency */,
+				EC9D7871460E4454BDB43944 /* PBXTargetDependency */,
+				E3ED9BDE96B84C0282F4DDDD /* PBXTargetDependency */,
+				0C466A93FDA84F57ABA9BDEB /* PBXTargetDependency */,
+				6FB0D0FC63694209852C47C7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1ACB020787C5414088F82F40 /* /Users/shelchess/mp2-lab1-set/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5C57B200BC83496D8317F9C9 /* /Users/shelchess/mp2-lab1-set/gtest/CMakeLists.txt */; };
+		281DDD9140B4491B845E83B5 /* /Users/shelchess/mp2-lab1-set/samples/sample_prime_numbers.cpp */ = {isa = PBXBuildFile; fileRef = 90741DA1F1DA4F0AB2CBE265 /* /Users/shelchess/mp2-lab1-set/samples/sample_prime_numbers.cpp */; };
+		52063E0924A441B08117A663 /* /Users/shelchess/mp2-lab1-set/gtest/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = F3BB2AD3F9DE4257983B6893 /* /Users/shelchess/mp2-lab1-set/gtest/gtest-all.cc */; };
+		6235DD3786A44B48AEA95A1E /* /Users/shelchess/mp2-lab1-set/test/test_tset.cpp */ = {isa = PBXBuildFile; fileRef = B59CD67D5EA845DB8B4CA98C /* /Users/shelchess/mp2-lab1-set/test/test_tset.cpp */; };
+		77FB9AF90904483E91C6942A /* /Users/shelchess/mp2-lab1-set/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 5B431F7CC9F64B96B1F518C1 /* /Users/shelchess/mp2-lab1-set/test/test_main.cpp */; };
+		8DB14F13E4A846A885890AA1 /* /Users/shelchess/mp2-lab1-set/include/tbitfield.h */ = {isa = PBXBuildFile; fileRef = 2A6B36603F2A4A058AF691E0 /* /Users/shelchess/mp2-lab1-set/include/tbitfield.h */; };
+		9587589A77D24D3FB502973A /* /Users/shelchess/mp2-lab1-set/src/tbitfield.cpp */ = {isa = PBXBuildFile; fileRef = 4F2FBB24246D48D4B3A51DF0 /* /Users/shelchess/mp2-lab1-set/src/tbitfield.cpp */; };
+		A73E7E33822E4CB889F101A6 /* /Users/shelchess/mp2-lab1-set/samples/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 398769F5EE454F79A74809F3 /* /Users/shelchess/mp2-lab1-set/samples/CMakeLists.txt */; };
+		ABDD31F8FEEE4EA0AB98BDB4 /* /Users/shelchess/mp2-lab1-set/include/tset.h */ = {isa = PBXBuildFile; fileRef = D3CDC28BDEB74E26AA03CFB8 /* /Users/shelchess/mp2-lab1-set/include/tset.h */; };
+		EB2C2DB59BD74222B919B425 /* /Users/shelchess/mp2-lab1-set/test/test_tbitfield.cpp */ = {isa = PBXBuildFile; fileRef = 211DCC40718744989692109B /* /Users/shelchess/mp2-lab1-set/test/test_tbitfield.cpp */; };
+		EDF637EDE52549B2BCCD2835 /* /Users/shelchess/mp2-lab1-set/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68406248B1DE4D7EA7A9404D /* /Users/shelchess/mp2-lab1-set/test/CMakeLists.txt */; };
+		F71DE5A0C6D54816B0B4CFA1 /* /Users/shelchess/mp2-lab1-set/src/tset.cpp */ = {isa = PBXBuildFile; fileRef = 7792465598284FCCB18594D2 /* /Users/shelchess/mp2-lab1-set/src/tset.cpp */; };
+		FA2F67059A0343618928B5F1 /* /Users/shelchess/mp2-lab1-set/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7B040938F9C341F6A02CFEF6 /* /Users/shelchess/mp2-lab1-set/src/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		416A8F3B643C4D949D0087E0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AB0BDAEA03204F45A25ECFF2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2513165E28324B0E92DF43E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2800A44BCEFCB2A52C5E88;
+			remoteInfo = gtest;
+		};
+		419C00616B074EF28D3DAE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38296FB0EA617A2EEF2D19A6;
+			remoteInfo = set;
+		};
+		489CA716ADD946359505886D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DCB8AEA5CBC890C11E9B61;
+			remoteInfo = ZERO_CHECK;
+		};
+		51975D3CDA204B66B760D324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC98D779F79235E272EEA1DA;
+			remoteInfo = sample_prime_numbers;
+		};
+		627B1A507C7B4603A9AC5454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DCB8AEA5CBC890C11E9B61;
+			remoteInfo = ZERO_CHECK;
+		};
+		6739DD97BA2F47F3A4308881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38296FB0EA617A2EEF2D19A6;
+			remoteInfo = set;
+		};
+		9DABD80F90CB4872ADCAAE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DCB8AEA5CBC890C11E9B61;
+			remoteInfo = ZERO_CHECK;
+		};
+		9F9AADBA26454E92A58DB406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DCB8AEA5CBC890C11E9B61;
+			remoteInfo = ZERO_CHECK;
+		};
+		AD98B38E849A443AA379B6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2800A44BCEFCB2A52C5E88;
+			remoteInfo = gtest;
+		};
+		B0AA29F7947F488B8A21A882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DCB8AEA5CBC890C11E9B61;
+			remoteInfo = ZERO_CHECK;
+		};
+		C6DDF6E120314DC99531699A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38296FB0EA617A2EEF2D19A6;
+			remoteInfo = set;
+		};
+		DC2F930867AA40759B8E1EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 799EBC73E0B84DF0B41D0025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED101E5B7B5C9365ACBC04D7;
+			remoteInfo = test_set;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		211DCC40718744989692109B /* /Users/shelchess/mp2-lab1-set/test/test_tbitfield.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tbitfield.cpp; path = test/test_tbitfield.cpp; sourceTree = SOURCE_ROOT; };
+		2A6B36603F2A4A058AF691E0 /* /Users/shelchess/mp2-lab1-set/include/tbitfield.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tbitfield.h; path = include/tbitfield.h; sourceTree = SOURCE_ROOT; };
+		398769F5EE454F79A74809F3 /* /Users/shelchess/mp2-lab1-set/samples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = samples/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4701BFE771004176B6DE8B09 /* set */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libset.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2FBB24246D48D4B3A51DF0 /* /Users/shelchess/mp2-lab1-set/src/tbitfield.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tbitfield.cpp; path = src/tbitfield.cpp; sourceTree = SOURCE_ROOT; };
+		5B431F7CC9F64B96B1F518C1 /* /Users/shelchess/mp2-lab1-set/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		5C57B200BC83496D8317F9C9 /* /Users/shelchess/mp2-lab1-set/gtest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = gtest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		68406248B1DE4D7EA7A9404D /* /Users/shelchess/mp2-lab1-set/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7792465598284FCCB18594D2 /* /Users/shelchess/mp2-lab1-set/src/tset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tset.cpp; path = src/tset.cpp; sourceTree = SOURCE_ROOT; };
+		7B040938F9C341F6A02CFEF6 /* /Users/shelchess/mp2-lab1-set/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9070347D33A34BFCA6ED55CB /* sample_prime_numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample_prime_numbers; sourceTree = BUILT_PRODUCTS_DIR; };
+		90741DA1F1DA4F0AB2CBE265 /* /Users/shelchess/mp2-lab1-set/samples/sample_prime_numbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sample_prime_numbers.cpp; path = samples/sample_prime_numbers.cpp; sourceTree = SOURCE_ROOT; };
+		9C9D73FF24E0440EA4EACF0D /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59CD67D5EA845DB8B4CA98C /* /Users/shelchess/mp2-lab1-set/test/test_tset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_tset.cpp; path = test/test_tset.cpp; sourceTree = SOURCE_ROOT; };
+		CBFFCA96560749CCB27200DE /* test_set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test_set; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CDC28BDEB74E26AA03CFB8 /* /Users/shelchess/mp2-lab1-set/include/tset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tset.h; path = include/tset.h; sourceTree = SOURCE_ROOT; };
+		EC9EBAA8CB2F43B78C5BB9EF /* /Users/shelchess/mp2-lab1-set/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F3BB2AD3F9DE4257983B6893 /* /Users/shelchess/mp2-lab1-set/gtest/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "gtest/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F9EA124D4B3474F94E8E71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B87991B3C2B468A9D04EBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BF1A2B361445D9ABF33133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0129AE0820E4BF3AA31930A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B01E6E2AC0431FB6935D45 /* test_set */ = {
+			isa = PBXGroup;
+			children = (
+				8963138955FB42CD8528D92B /* Source Files */,
+				68406248B1DE4D7EA7A9404D /* /Users/shelchess/mp2-lab1-set/test/CMakeLists.txt */,
+			);
+			name = test_set;
+			sourceTree = "<group>";
+		};
+		2AF6589F30F74E6E89D0F2D1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3693F8F352A2497394701D9C /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				E2C58CDDE146445681D00061 /* Source Files */,
+				5C57B200BC83496D8317F9C9 /* /Users/shelchess/mp2-lab1-set/gtest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		598F39FF2F494BE687661C05 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				90741DA1F1DA4F0AB2CBE265 /* /Users/shelchess/mp2-lab1-set/samples/sample_prime_numbers.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67EE96DED1F54F51B0CC1D11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FC62DA0616D47F8AFB542B2 /* sample_prime_numbers */ = {
+			isa = PBXGroup;
+			children = (
+				598F39FF2F494BE687661C05 /* Source Files */,
+				398769F5EE454F79A74809F3 /* /Users/shelchess/mp2-lab1-set/samples/CMakeLists.txt */,
+			);
+			name = sample_prime_numbers;
+			sourceTree = "<group>";
+		};
+		8963138955FB42CD8528D92B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B431F7CC9F64B96B1F518C1 /* /Users/shelchess/mp2-lab1-set/test/test_main.cpp */,
+				211DCC40718744989692109B /* /Users/shelchess/mp2-lab1-set/test/test_tbitfield.cpp */,
+				B59CD67D5EA845DB8B4CA98C /* /Users/shelchess/mp2-lab1-set/test/test_tset.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EC5F4284520407CBD6082F4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6589F30F74E6E89D0F2D1 /* CMake Rules */,
+				EC9EBAA8CB2F43B78C5BB9EF /* /Users/shelchess/mp2-lab1-set/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AC2B90A11DE8423F9CA44A41 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B36603F2A4A058AF691E0 /* /Users/shelchess/mp2-lab1-set/include/tbitfield.h */,
+				D3CDC28BDEB74E26AA03CFB8 /* /Users/shelchess/mp2-lab1-set/include/tset.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AD7AA2DFCCCF4048A6069027 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FBB24246D48D4B3A51DF0 /* /Users/shelchess/mp2-lab1-set/src/tbitfield.cpp */,
+				7792465598284FCCB18594D2 /* /Users/shelchess/mp2-lab1-set/src/tset.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C62C2FBCE25F49FEB11022CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9D73FF24E0440EA4EACF0D /* gtest */,
+				9070347D33A34BFCA6ED55CB /* sample_prime_numbers */,
+				4701BFE771004176B6DE8B09 /* set */,
+				CBFFCA96560749CCB27200DE /* test_set */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D017FC18B120497F8BEC26CA /* set */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AA2DFCCCF4048A6069027 /* Source Files */,
+				AC2B90A11DE8423F9CA44A41 /* Header Files */,
+				7B040938F9C341F6A02CFEF6 /* /Users/shelchess/mp2-lab1-set/src/CMakeLists.txt */,
+			);
+			name = set;
+			sourceTree = "<group>";
+		};
+		E2C58CDDE146445681D00061 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3BB2AD3F9DE4257983B6893 /* /Users/shelchess/mp2-lab1-set/gtest/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F7C4E6CAAE8947E397CB4765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB242536A07D4F44A92C6363 = {
+			isa = PBXGroup;
+			children = (
+				8EC5F4284520407CBD6082F4 /* ALL_BUILD */,
+				D017FC18B120497F8BEC26CA /* set */,
+				6FC62DA0616D47F8AFB542B2 /* sample_prime_numbers */,
+				3693F8F352A2497394701D9C /* gtest */,
+				15B01E6E2AC0431FB6935D45 /* test_set */,
+				C62C2FBCE25F49FEB11022CE /* Products */,
+				F7C4E6CAAE8947E397CB4765 /* Frameworks */,
+				67EE96DED1F54F51B0CC1D11 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38296FB0EA617A2EEF2D19A6 /* set */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E484ECBD1E43A68B46812B /* Build configuration list for PBXNativeTarget "set" */;
+			buildPhases = (
+				AA3F26C693FF410EAD722A18 /* Sources */,
+				88BF1A2B361445D9ABF33133 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A48FECF1C5A4EA29094FE20 /* PBXTargetDependency */,
+			);
+			name = set;
+			productName = set;
+			productReference = 4701BFE771004176B6DE8B09 /* set */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC98D779F79235E272EEA1DA /* sample_prime_numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEEE383B11447E4AFA1493C /* Build configuration list for PBXNativeTarget "sample_prime_numbers" */;
+			buildPhases = (
+				3A391E1237684036A4EA7030 /* Sources */,
+				2F9EA124D4B3474F94E8E71F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E93948D53374AE294BC5C23 /* PBXTargetDependency */,
+				65ECC1854679440F8E2AA559 /* PBXTargetDependency */,
+			);
+			name = sample_prime_numbers;
+			productName = sample_prime_numbers;
+			productReference = 9070347D33A34BFCA6ED55CB /* sample_prime_numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		BC2800A44BCEFCB2A52C5E88 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A46F09B5A409B8F22B727 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				E390EDE8061B45558D7E3546 /* Sources */,
+				7B87991B3C2B468A9D04EBCE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA19E1CD39B949DB806702D2 /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 9C9D73FF24E0440EA4EACF0D /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED101E5B7B5C9365ACBC04D7 /* test_set */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE29F9B24C0C4DB9AF5CA12D /* Build configuration list for PBXNativeTarget "test_set" */;
+			buildPhases = (
+				BF273D781D3144CE852AE15C /* Sources */,
+				E0129AE0820E4BF3AA31930A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88E9210DE0B486EA4802196 /* PBXTargetDependency */,
+				A2056E1CD46C406E83722510 /* PBXTargetDependency */,
+				568FF64721F84EA0BD38EA24 /* PBXTargetDependency */,
+			);
+			name = test_set;
+			productName = test_set;
+			productReference = CBFFCA96560749CCB27200DE /* test_set */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799EBC73E0B84DF0B41D0025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = E71E9C06D7FD418384BC663E /* Build configuration list for PBXProject "set" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AB0BDAEA03204F45A25ECFF2 /* Debug */,
+				416A8F3B643C4D949D0087E0 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FB242536A07D4F44A92C6363;
+			projectDirPath = "/Users/shelchess/mp2-lab1-set";
+			projectRoot = "";
+			targets = (
+				805C551B44D1BB9A53382B8E /* ALL_BUILD */,
+				61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */,
+				BC2800A44BCEFCB2A52C5E88 /* gtest */,
+				AC98D779F79235E272EEA1DA /* sample_prime_numbers */,
+				38296FB0EA617A2EEF2D19A6 /* set */,
+				ED101E5B7B5C9365ACBC04D7 /* test_set */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		94C0E843969429DFB656B2F0 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/shelchess/mp2-lab1-set/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/shelchess/mp2-lab1-set/build
+  make -f /Users/shelchess/mp2-lab1-set/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/shelchess/mp2-lab1-set/build
+  make -f /Users/shelchess/mp2-lab1-set/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D3AE9A689A241A7B0BFAAEA2 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/shelchess/mp2-lab1-set/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/shelchess/mp2-lab1-set/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/shelchess/mp2-lab1-set/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A391E1237684036A4EA7030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281DDD9140B4491B845E83B5 /* /Users/shelchess/mp2-lab1-set/samples/sample_prime_numbers.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F26C693FF410EAD722A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9587589A77D24D3FB502973A /* /Users/shelchess/mp2-lab1-set/src/tbitfield.cpp */,
+				F71DE5A0C6D54816B0B4CFA1 /* /Users/shelchess/mp2-lab1-set/src/tset.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF273D781D3144CE852AE15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FB9AF90904483E91C6942A /* /Users/shelchess/mp2-lab1-set/test/test_main.cpp */,
+				EB2C2DB59BD74222B919B425 /* /Users/shelchess/mp2-lab1-set/test/test_tbitfield.cpp */,
+				6235DD3786A44B48AEA95A1E /* /Users/shelchess/mp2-lab1-set/test/test_tset.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E390EDE8061B45558D7E3546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52063E0924A441B08117A663 /* /Users/shelchess/mp2-lab1-set/gtest/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C466A93FDA84F57ABA9BDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2800A44BCEFCB2A52C5E88 /* gtest */;
+			targetProxy = AD98B38E849A443AA379B6EC /* PBXContainerItemProxy */;
+		};
+		568FF64721F84EA0BD38EA24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2800A44BCEFCB2A52C5E88 /* gtest */;
+			targetProxy = 2513165E28324B0E92DF43E3 /* PBXContainerItemProxy */;
+		};
+		5E93948D53374AE294BC5C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38296FB0EA617A2EEF2D19A6 /* set */;
+			targetProxy = 6739DD97BA2F47F3A4308881 /* PBXContainerItemProxy */;
+		};
+		65ECC1854679440F8E2AA559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */;
+			targetProxy = B0AA29F7947F488B8A21A882 /* PBXContainerItemProxy */;
+		};
+		6FB0D0FC63694209852C47C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED101E5B7B5C9365ACBC04D7 /* test_set */;
+			targetProxy = DC2F930867AA40759B8E1EAB /* PBXContainerItemProxy */;
+		};
+		9A48FECF1C5A4EA29094FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */;
+			targetProxy = 489CA716ADD946359505886D /* PBXContainerItemProxy */;
+		};
+		A2056E1CD46C406E83722510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */;
+			targetProxy = 627B1A507C7B4603A9AC5454 /* PBXContainerItemProxy */;
+		};
+		D8831854A32D48BDB48463CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38296FB0EA617A2EEF2D19A6 /* set */;
+			targetProxy = 419C00616B074EF28D3DAE7D /* PBXContainerItemProxy */;
+		};
+		D88E9210DE0B486EA4802196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38296FB0EA617A2EEF2D19A6 /* set */;
+			targetProxy = C6DDF6E120314DC99531699A /* PBXContainerItemProxy */;
+		};
+		E3ED9BDE96B84C0282F4DDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */;
+			targetProxy = 9DABD80F90CB4872ADCAAE42 /* PBXContainerItemProxy */;
+		};
+		EA19E1CD39B949DB806702D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DCB8AEA5CBC890C11E9B61 /* ZERO_CHECK */;
+			targetProxy = 9F9AADBA26454E92A58DB406 /* PBXContainerItemProxy */;
+		};
+		EC9D7871460E4454BDB43944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC98D779F79235E272EEA1DA /* sample_prime_numbers */;
+			targetProxy = 51975D3CDA204B66B760D324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31E8A9D1806641259B08A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		43DF9605652B4F3E8A4BDB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","/Users/shelchess/mp2-lab1-set/test/../3rdparty","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/shelchess/mp2-lab1-set/build/lib/Release/libgtest.a","/Users/shelchess/mp2-lab1-set/build/lib/Release/libset.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_set;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/test_set.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		45C3950D1BE04AE682E3C611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/shelchess/mp2-lab1-set/build/lib/Release/libset.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sample_prime_numbers;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/sample_prime_numbers.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4A230932E1C240B294AF27F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B1B58A1E7184D4AB98FD543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/shelchess/mp2-lab1-set/build/build";
+			};
+			name = Debug;
+		};
+		A27720EB0E0D485A919CDEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = set;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/set.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B6AC2720DA3E44BC874C538C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = set;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/set.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BC9817056F4140AAAF73E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","/Users/shelchess/mp2-lab1-set/test/../3rdparty","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/shelchess/mp2-lab1-set/build/lib/Debug/libgtest.a","/Users/shelchess/mp2-lab1-set/build/lib/Debug/libset.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_set;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/test_set.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4D7428679064D28825AD10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/shelchess/mp2-lab1-set/build/build";
+			};
+			name = Release;
+		};
+		CB8642667F3C4722A7D67ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D80425B44CAD407C8314C8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DE25A4E4471945DA89A7965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E53A69C2AA7240BF9A471A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FB35E062CAF6405CA87A0E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shelchess/mp2-lab1-set/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shelchess/mp2-lab1-set/include","/Users/shelchess/mp2-lab1-set/gtest","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/shelchess/mp2-lab1-set/build/lib/Debug/libset.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sample_prime_numbers;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/shelchess/mp2-lab1-set/build/build/sample_prime_numbers.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065A46F09B5A409B8F22B727 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25A4E4471945DA89A7965D /* Debug */,
+				31E8A9D1806641259B08A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22044364A1194B23B4DBDB9A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80425B44CAD407C8314C8E1 /* Debug */,
+				CB8642667F3C4722A7D67ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57E484ECBD1E43A68B46812B /* Build configuration list for PBXNativeTarget "set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AC2720DA3E44BC874C538C /* Debug */,
+				A27720EB0E0D485A919CDEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		774077B9C17B4A1E914AE3AC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A230932E1C240B294AF27F7 /* Debug */,
+				E53A69C2AA7240BF9A471A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACEEE383B11447E4AFA1493C /* Build configuration list for PBXNativeTarget "sample_prime_numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB35E062CAF6405CA87A0E05 /* Debug */,
+				45C3950D1BE04AE682E3C611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE29F9B24C0C4DB9AF5CA12D /* Build configuration list for PBXNativeTarget "test_set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9817056F4140AAAF73E914 /* Debug */,
+				43DF9605652B4F3E8A4BDB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E71E9C06D7FD418384BC663E /* Build configuration list for PBXProject "set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1B58A1E7184D4AB98FD543 /* Debug */,
+				C4D7428679064D28825AD10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799EBC73E0B84DF0B41D0025 /* Project object */;
+}

@@ -1,0 +1,61 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c503c978cb9adb60fe82a996b0aa8ef5d"
+    },
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c1128f1f7e90215fb499bf6a60e363f71"
+    },
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c9768adb0798333385878eba61c6dd8e7"
+    },
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c36773674f87abfc13c3681a525378817"
+    },
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c9538e4fc1fd5160dd486e1d1af88f561"
+    },
+    {
+      "guid" : "848bd933e9d1f8df8cb57de152cfad0c4d6d97dc3dabce8de72a1d8d244e3f2c"
+    }
+  ],
+  "containerPath" : "/Users/shelchess/mp2-lab1-set/build/set.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/shelchess/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/shelchess/Library/Developer/Xcode/DerivedData/set-dfzazrvybiiqqycrcfyllxzkoqld/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/shelchess/Library/Developer/Xcode/DerivedData/set-dfzazrvybiiqqycrcfyllxzkoqld/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

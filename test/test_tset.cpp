@@ -295,3 +295,15 @@ TEST(TSet, check_negation_operator)
 
   EXPECT_EQ(expSet, set1);
 }
+
+TEST(TSet, index_bit_out_of_range)
+{
+    TSet set(5);
+    ASSERT_ANY_THROW(set.IsMember(5));
+}
+
+TEST(TSet, negative_length)
+{
+    TSet set(5);
+    ASSERT_ANY_THROW(set.InsElem(-3));
+}
