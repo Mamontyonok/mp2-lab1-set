@@ -5,7 +5,7 @@
 //   Переработано для Microsoft Visual Studio 2008 Сысоевым А.В. (19.04.2015)
 //
 // Битовое поле
-
+// for commit
 #include "tbitfield.h"
 
 // Fake variables used as placeholders in tests
