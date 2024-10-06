@@ -20,9 +20,11 @@ TBitField::TBitField(int len)
         throw length_error("negative length");
     BitLen = len;
     MemLen = len / size + 1;
-    pMem = new TELEM[MemLen]();
+    pMem = new TELEM[MemLen];
     if (pMem == nullptr)
         throw domain_error("nullptr");
+    for (int i = 0; i < MemLen; i++)
+        pMem[i] = 0;
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
@@ -30,6 +32,8 @@ TBitField::TBitField(const TBitField &bf) // конструктор копиро
     BitLen = bf.BitLen;
     MemLen = bf.MemLen;
     pMem = new TELEM[MemLen];
+    if (pMem == nullptr)
+        throw domain_error("nullptr");
     for (int i = 0; i < MemLen; i++)
         pMem[i] = bf.pMem[i];
 }
@@ -81,8 +85,8 @@ void TBitField::ClrBit(const int n) // очистить бит
         throw length_error("index bit out of range");
     if (n < 0)
         throw length_error("negative length");
-    long long MemIndex = GetMemIndex(n);
-    long long ShiftIndex = GetMemMask(n);
+    int MemIndex = GetMemIndex(n);
+    TELEM ShiftIndex = GetMemMask(n);
     pMem[MemIndex] = pMem[MemIndex] & (~ShiftIndex);
 }
 
@@ -126,12 +130,9 @@ int TBitField::operator==(const TBitField &bf) const // сравнение
 
 int TBitField::operator!=(const TBitField &bf) const // сравнение
 {
-    if (BitLen != bf.BitLen)
-        return 1;
-    for (int i = 0; i < MemLen; i++)
-        if (pMem[i] != bf.pMem[i])
-            return 1;
-    return 0;
+    if (*this == bf)
+        return 0;
+    else return 1;
 }
 
 TBitField TBitField::operator|(const TBitField &bf) // операция "или"
